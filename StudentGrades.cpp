@@ -14,5 +14,10 @@ int main() {
     std::cout << "Student: " << name << std::endl;
     std::cout << "Grade: " << grade << std::endl;
 
+    if (grade >= 50)
+        std::cout << "Passed" << std::endl;
+    else
+        std::cout << "Failed" << std::endl;
+
     return 0;
 }
